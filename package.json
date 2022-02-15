@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "description": "An example repo for demoing api-extractor and api-documenter",
+  "main": "index.js",
+  "repository": "https://github.com/lbdm44/api-extractor-example.git",
+  "author": "Lewis Miller <lewis.miller.github@pm.me>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"]
+}

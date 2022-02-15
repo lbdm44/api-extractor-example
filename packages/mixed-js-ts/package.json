@@ -1,0 +1,12 @@
+{
+  "name": "@api-extractor-examples/mixed-js-ts",
+  "version": "0.0.0",
+  "description": "",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbdm44/api-extractor-example.git",
+    "directory": "packages/mixed-js-ts"
+  },
+  "license": "MIT"
+}
