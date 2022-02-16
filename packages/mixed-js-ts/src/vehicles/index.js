@@ -1,4 +1,4 @@
-import Car from "./car";
-import Motorcycle from "./motorcycle";
+import Car from './car';
+import Motorcycle from './motorcycle';
 
 export { Car, Motorcycle };

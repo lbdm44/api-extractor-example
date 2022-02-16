@@ -1,3 +1,3 @@
-import { Car, Motorcycle } from "./vehicles";
+import { Car, Motorcycle } from './vehicles';
 
 export { Car, Motorcycle };
