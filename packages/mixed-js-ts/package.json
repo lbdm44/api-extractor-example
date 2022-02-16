@@ -9,6 +9,9 @@
     "url": "https://github.com/lbdm44/api-extractor-example.git",
     "directory": "packages/mixed-js-ts"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.18",

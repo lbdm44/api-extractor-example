@@ -14,7 +14,6 @@ export abstract class Vehicle {
   abstract wheels: number;
 
   /**
-   * @override
    * @returns A human readable description of this vehicle.
    */
   toString() {

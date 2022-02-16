@@ -25,7 +25,6 @@ export class Vehicle {
   wheels;
 
   /**
-   * @override
    * @returns A human readable description of this vehicle.
    */
   toString() {
