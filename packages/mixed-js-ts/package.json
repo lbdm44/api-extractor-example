@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc",
     "docs:prepare": "scripty",
-    "docs:build": "yarn docs:prepare && yarn build && api-extractor run --local --verbose"
+    "docs:build": "yarn docs:prepare && api-extractor run --local --verbose && api-documenter markdown --input-folder temp"
   },
   "license": "MIT",
   "devDependencies": {
