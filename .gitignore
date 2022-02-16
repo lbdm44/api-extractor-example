@@ -50,6 +50,13 @@ typings/
 # TypeScript Output
 lib/
 
+# API Extractor/Documenter
+dist/
+etc/
+markdown/
+temp/
+
+
 # Optional npm cache directory
 .npm
 

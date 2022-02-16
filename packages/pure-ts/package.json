@@ -10,11 +10,16 @@
     "directory": "packages/pure-ts"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "docs:prepare": "scripty",
+    "docs:build": "yarn docs:prepare && yarn build && api-extractor run --local --verbose"
   },
   "license": "MIT",
   "devDependencies": {
+    "@microsoft/api-documenter": "^7.15.3",
+    "@microsoft/api-extractor": "^7.19.4",
     "@types/node": "^17.0.18",
+    "scripty": "^2.0.0",
     "typescript": "^4.5.5"
   }
 }
