@@ -7,7 +7,10 @@ export function formatVehicle(type, wheels) {
   return `I'm a ${type} and have ${wheels} wheels`;
 }
 
-class Vehicle {
+/**
+ * @abstract
+ */
+export class Vehicle {
   /**
    * Indicates what type of vehicle this is.
    *
@@ -29,5 +32,3 @@ class Vehicle {
     return formatVehicle(this.type, this.wheels);
   }
 }
-
-export default Vehicle;
