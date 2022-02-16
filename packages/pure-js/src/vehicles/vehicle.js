@@ -1,7 +1,7 @@
 /**
- * @param {string} type The type of vehicle.
- * @param {number} wheels The number of wheels.
- * @returns {string} A description of the vehicle.
+ * @param {string} type - The type of vehicle.
+ * @param {number} wheels - The number of wheels.
+ * @returns {string} - A description of the vehicle.
  */
 export function formatVehicle(type, wheels) {
   return `I'm a ${type} and have ${wheels} wheels`;

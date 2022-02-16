@@ -15,14 +15,22 @@
     "yarn": "1.22.17"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-tsdoc": "^0.2.14",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "prettier": "2.5.1"
   },
   "scripts": {
+    "lint": "eslint \"./packages/**/*.{js,jsx,ts,tsx,mjs}\"",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{js,jsx,ts,tsx,mjs}": [
+      "eslint --fix"
+    ]
   }
 }
